@@ -19,5 +19,11 @@
             "publishedAt": "2023-01-01"
         }
     ],
-    "users": []
+    "users": [
+        {
+            "id": "1",
+            "name": "John Doe",
+            "email": "john@gmail.com"
+        }
+    ]
 }
