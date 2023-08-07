@@ -1,5 +1,12 @@
-import React from 'react';
-import { List, Datagrid, TextField, DateField, EditButton, DeleteButton } from 'react-admin';
+import React from 'react'
+import {
+  List,
+  Datagrid,
+  TextField,
+  DateField,
+  EditButton,
+  DeleteButton,
+} from 'react-admin'
 
 const PostList = (props) => {
   return (
@@ -12,7 +19,7 @@ const PostList = (props) => {
         <DeleteButton basePath='/posts' />
       </Datagrid>
     </List>
-  );
-};
+  )
+}
 
-export default PostList;
+export default PostList
